@@ -22,7 +22,7 @@ window.addEventListener('DOMContentLoaded', async () => {
     
     const video = createElement("video")
     video.autoplay = true
-    video.srcObject = await navigator.mediaDevices.getUserMedia({ video: true })
+    video.srcObject = await navigator.mediaDevices.getUserMedia({ video: {facingMode: "environment"} })
     const canvas = createElement("canvas")
     canvas.width=1280
     canvas.height=720
