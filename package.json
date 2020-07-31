@@ -1,0 +1,22 @@
+{
+  "name": "arm",
+  "version": "1.0.0",
+  "description": "Play with Desktop<>Mobile UX",
+  "devDependencies": {
+    "ts-loader": "^8.0.1",
+    "typescript": "^3.9.7",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "@stomp/stompjs": "^5.4.4",
+    "aruco-marker": "^2.0.0",
+    "js-aruco": "^0.1.0"
+  },
+  "scripts": {
+    "start": "webpack-dev-server",
+    "build": "webpack --mode production"
+  }
+}
